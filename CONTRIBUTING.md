@@ -24,12 +24,6 @@ Ajouter un image `$id_startup.jpg`ou .png dans le dossier [img/startups](https:/
 
 ## Ajouter ou modifier un membre à la communauté BetaGouv
 
-### [À travers l'interface web Netlify CMS (pour ne pas avoir à écrire de code)](https://beta.gouv.fr/admin/)
-
-Cette interface permet à toutes les personnes de la communauté d'ajouter de nouveaux membres ou de modifier des fiches. Si c'est pour créer ta fiche, demande à ton marrain de t'aider !
-
-**Attention** : en cas d'ajout de fiche, toi ou ton marrain doit vérifier que le nom du fichier se conforme aux indications ci-dessous.
-
 ### [En un clic par l'interface web de GitHub](https://beta.gouv.fr/trampoline.html?what=authors&where=content/_authors/prenom.nom.md) :smiley:
 
 Le nom du fichier est important : il doit correspondre au nom de la personne, selon le schéma `prenom.nom.md`. Les parties `prenom` et `nom` sont en minuscules et sans accents. Les espaces des noms propres sont remplacés par `_` et les tirets restent. Il faut garder .md à la fin du nom du fichier. **Il est important que cet identifiant et celui du mail `@beta.gouv.fr` correspondent**. Cela nous permet de traiter [automatiquement](https://github.com/betagouv/betaGouvBot) divers sujets liés à la gestion RH tels que abonnement et désabonnement des listes de diffusion, anticipation des fins de contrat, etc.
@@ -37,6 +31,12 @@ Le nom du fichier est important : il doit correspondre au nom de la personne, s
 > Sinon, offline : créer un nouveau fichier de description dans le dossier [`content/_authors`](https://github.com/betagouv/beta.gouv.fr/tree/master/content/_authors) et renseigner les informations en prenant exemple sur un fichier de description existant déjà dans ce dossier.
 
 Tu peux fournir un fichier avec ta photo si tu n'as pas de compte Github, ou si tu es à l'aise avec la manip (qui est un peu plus pénible que juste modifier un fichier Markdown). Attention, l'image doit être carrée et de préférence à une résolution supérieure à 512 ⨉ 512 pixels, optimisée au préalable avec un outil du type [ImageOptim](https://imageoptim.com/mac) - choisir des réglages "lossy" donnant en général plus de 50% de gains à la compression, mais ne pas supprimer les métadonnées d'images.
+
+### [À travers l'interface web Netlify CMS (pour ne pas avoir à écrire de code)](https://beta.gouv.fr/admin/)
+
+Cette interface permet à toutes les personnes de la communauté d'ajouter de nouveaux membres ou de modifier des fiches. Si c'est pour créer ta fiche, demande à ton marrain de t'aider !
+
+**Attention** : en cas d'ajout de fiche, toi ou ton marrain doit vérifier que le nom du fichier se conforme aux indications ci-dessous.
 
 ## Ajouter une offre d'emploi
 
